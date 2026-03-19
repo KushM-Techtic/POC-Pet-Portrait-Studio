@@ -1,0 +1,38 @@
+### Secrets / env
+.env
+.env.*
+!.env.example
+
+### Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+.venv/
+venv/
+ENV/
+env/
+
+### Outputs / generated artifacts
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+### OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+### Node / frontend builds (repo-level safety)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
